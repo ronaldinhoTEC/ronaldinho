@@ -1,0 +1,40 @@
+.front-back{
+    color: #A9A297 !important;
+    border-bottom: 2px solid gold;
+    border-top: 1px solid gold;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 600;
+    font-size: 3.8rem !important;
+    line-height: 18px;
+    color: rgb(204, 214, 246); 
+}
+.nombre-autor{
+    color: white !important;
+    font-size: 3.2rem !important;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 600;
+}
+.descripcion-autor{
+    color: white !important;
+    font-size: 1.5rem !important;
+    width: 65vw;
+}
+
+.saludo{
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
+    line-height: 18px;
+    color: #64ffda;
+    font-size: 16px;
+}
+.botones{
+    border: 1px solid white;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+}

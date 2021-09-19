@@ -1,0 +1,38 @@
+/* Tablet */
+@media screen and (max-width: 1200px) and (min-width: 992px){
+    .name_header{
+        display: none;
+    }
+    .container_header{
+        width: 100vw;
+        
+    }
+    .opciones_header{
+        width: 20vw
+    }
+    .presentacion{
+        height: 75vh;
+        min-height: 550px;
+        
+    }
+    .cybr-btn{
+        
+        width: 25vw;
+        font-size: 22px;;
+    }
+    .experiencia{
+        height: 650px;
+        grid-template-rows: 340px 320px;
+        width: 95vw;
+    }
+    /* .frameworks{
+        min-height: 320px;
+    }  */
+    .tecnologias{
+        height: 290px;
+        min-height: 300px;
+    }
+    .faq_contacto{
+        width: 95vw;
+    }
+}

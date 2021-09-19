@@ -1,0 +1,61 @@
+.header__toggle, .header__close{
+    display: none;
+}
+.nav{
+    display: inline-flex;
+}
+@media screen and (max-width: 768px) and (min-width: 576px) {
+    .name_header{
+        width: 100vw;
+    }
+    .opciones_header {
+        width: 85%;
+        padding: 30px 20px;
+        margin: 0 30px;
+    }
+    .header__toggle{
+        display: inline;
+        color: #eeeeee;
+        font-size: 24px;
+
+    }
+    .header__close{
+        display: block;
+        position: absolute;
+        right: 24px;
+        font-size: 24px;
+        border-radius: 50%;
+    }
+    .header__close:hover{
+        background-color: aquamarine;
+    }
+    .nav{
+        display: flex;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        background-color: black;
+        color: #eeee;
+        height: 100vh;
+        padding: 24px 0;
+        z-index: 100;
+        transition: 0.5s;
+        border-radius: 0 0 0 50%;
+        flex-direction: column;
+        width: 60vw;
+    }
+    .container_header{
+        display: flex;
+        flex-direction: column;
+        height: 45vh;
+        width: 100%;
+        padding: 0;
+    }
+    .show{
+        right: 0;
+    }
+    
+}
+
+
+

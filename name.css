@@ -1,0 +1,81 @@
+
+
+
+/* weewqeqwqweeqw */
+
+
+/* .teclado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} */
+.teclado span{
+    font-family: Georgia;
+    font-size: 30px;
+    color: #00f7f7;
+    display: inline-flex;
+    animation: animate 15s linear infinite;
+    width: 50px;
+    border-radius: 2px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;    
+    border: 1px solid black;
+    margin: 0px;
+}
+@keyframes animate{
+    0%{
+        color: #00f7f7;
+        box-shadow: 0px 1px 5px #00f7f7;
+        border: 1px solid #112240;
+        
+    }
+    33.3%{
+        color: #00f7f7;
+        box-shadow: 0px 0px 0px #00f7f7;
+        border: 1px solid #112240;
+        
+    }
+    66.6%{
+        color: #3ce9e9;
+        box-shadow: 0px 0px 0px #00f7f7;
+        border: 1px solid #112240;
+    }
+    100%{
+        color: #00f7f7;
+        box-shadow: 0px 2px 5px #00f7f7;
+        border: 1px solid #112240;
+    }
+}
+
+.teclado span:nth-child(1){
+    animation-delay: .1s;
+}
+.teclado span:nth-child(2){
+    animation-delay: .2s;
+}
+.teclado span:nth-child(3){
+    animation-delay: .3s;
+}
+.teclado span:nth-child(4){
+    animation-delay: .4s;
+}
+.teclado span:nth-child(5){
+    animation-delay: .5s;
+}
+.teclado span:nth-child(6){
+    animation-delay: .6s;
+}
+/* .teclado span:nth-child(7){
+    animation-delay: .1s;
+}
+.teclado span:nth-child(8){
+    animation-delay: .1s;
+}
+.teclado span:nth-child(9){
+    animation-delay: .1s;
+}
+.teclado span:nth-child(10){
+    animation-delay: .1s;
+} */
